@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 1</title>
+    <link rel = "stylesheet" href="C:\Users\Pavani\Desktop\Html\Applicationstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Application Form</h1>
+    </header>
+    <section>
+        <table>
+        <form = action="/action" method="submit">
+            <fieldset>
+                <legend>Personal Information</legend><br>
+                    <label for="fullname">Full Name:<input type="text" id="fullname" name="fullname" required autofocus autocomplete="name" placeholder="Enter your name"></label><br><br>
+                    <label for="email">Email:<input type="email" required autocomplete="email" placeholder="Enter your email"></label><br><br>
+                    <label for="phone">Phone Number:<input type="tel" required autocomplete="tel" placeholder="Enter your ph.no"></label><br><br>
+                    <label for="dob">Date of Birth:</label><br><br>
+                    <input type="date" id="dob" name="dob" required autocomplete="bday-day"><br><br>
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Educational Information</legend><br>
+                    <label for="degree">Highest Degree:<input type="text" placeholder="Enter your Degree"></label><br><br>
+                    <label for="institution">Institution:<input type="text" placeholder="Enter your institution name"></label><br><br>
+                    <label for="year">Year of Graduation:<input type="number" required placeholder="Enter year"></label>
+            </fieldset>         
+            <fieldset>
+                <legend>Additional Information</legend><br>
+               <label for="resume">Upload Resume:<input type="file" accept=".pdf,.doc,.docx"></label>
+               <br></br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your intrestes here..."></textarea>
+            </fieldset>
+             <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</table>
+    <footer>
+        <p>pavaniaparnadevi2022@gmail.com</p>
+    </footer>
+</body>
+</html>       
